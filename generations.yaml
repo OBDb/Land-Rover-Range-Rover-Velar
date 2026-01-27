@@ -1,0 +1,17 @@
+references:
+  - "https://en.wikipedia.org/wiki/Range_Rover_Velar"
+
+generations:
+  - name: "First Generation"
+    start_year: 2017
+    end_year: 2022
+    description: "Original Range Rover Velar launched in March 2017. Built on the Jaguar Land Rover iQ[AI] (D7a) platform, sharing components with the Jaguar F-Pace, XF, and XE models. Features a new design language with smoother body lines and a interior with 3 touchscreens."
+    platform: "D7a"
+    notes: ""
+
+  - name: "First Generation (Facelift)"
+    start_year: 2023
+    end_year: null
+    description: "Facelifted version introduced in 2023. Updated exterior styling and interior features including enhanced infotainment system and new engine options."
+    platform: "D7a"
+    notes: ""
