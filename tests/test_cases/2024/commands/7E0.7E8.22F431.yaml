@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 197
+  response: 7E80562F43100C5
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 199
+  response: 7E80562F43100C7
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 200
+  response: 7E80562F43100C8
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 201
+  response: 7E80562F43100C9
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 202
+  response: 7E80562F43100CA
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 204
+  response: 7E80562F43100CC
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 206
+  response: 7E80562F43100CE
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 216
+  response: 7E80562F43100D8

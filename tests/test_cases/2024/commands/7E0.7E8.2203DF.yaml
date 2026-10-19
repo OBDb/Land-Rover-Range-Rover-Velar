@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2203DF
+test_cases:
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR_REQUIRED: 0
+  response: 7E8056203DF0000

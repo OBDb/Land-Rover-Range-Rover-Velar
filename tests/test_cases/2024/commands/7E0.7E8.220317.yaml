@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220317
+test_cases:
+- expected_values:
+    VELAR_EXH_CAM_POS_ACTUATOR_B_1: 0
+  response: '7E8056203170000'
+- expected_values:
+    VELAR_EXH_CAM_POS_ACTUATOR_B_1: 0
+  response: 7E8056203173EF6
+- expected_values:
+    VELAR_EXH_CAM_POS_ACTUATOR_B_1: 0.00305
+  response: 7E8056203174D3B

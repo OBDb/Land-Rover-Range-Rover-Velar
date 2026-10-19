@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40E
+test_cases:
+- expected_values:
+    VELAR_SPARK_ADV: -16.5
+  response: 7E80462F40E5F
+- expected_values:
+    VELAR_SPARK_ADV: 40.5
+  response: 7E80462F40ED1

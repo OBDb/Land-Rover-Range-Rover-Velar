@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220415
+test_cases:
+- expected_values:
+    VELAR_EOP: 97
+  response: '7E8056204150061'
+- expected_values:
+    VELAR_EOP: 286
+  response: 7E805620415011E
+- expected_values:
+    VELAR_EOP: 404
+  response: '7E8056204150194'

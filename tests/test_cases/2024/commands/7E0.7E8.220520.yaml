@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220520
+test_cases:
+- expected_values:
+    VELAR_INTERCOOLER_OUTLET_T_B1: 31
+  response: '7E80462052047'
+- expected_values:
+    VELAR_INTERCOOLER_OUTLET_T_B1: 47
+  response: '7E80462052057'

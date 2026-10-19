@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2205A4
+test_cases:
+- expected_values:
+    VELAR_OIL_PMP_SOLENOID_POS: 0
+  response: 7E8046205A400
+- expected_values:
+    VELAR_OIL_PMP_SOLENOID_POS: 61.56863
+  response: 7E8046205A49D

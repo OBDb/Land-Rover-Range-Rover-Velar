@@ -1,0 +1,13 @@
+command_id: 7E0.7E8.22F403
+test_cases:
+- expected_values:
+    VELAR_FUEL_SYS_B2: 0
+  response: 7E80562F4030000
+- expected_values:
+    VELAR_FUEL_SYS_B1: ClosedLoop
+    VELAR_FUEL_SYS_B2: 0
+  response: 7E80562F4030200
+- expected_values:
+    VELAR_FUEL_SYS_B1: OpenLoopLoad
+    VELAR_FUEL_SYS_B2: 0
+  response: 7E80562F4030400

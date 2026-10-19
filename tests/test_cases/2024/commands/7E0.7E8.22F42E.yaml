@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F42E
+test_cases:
+- expected_values:
+    VELAR_EVAP_PURGE: 0
+  response: 7E80462F42E00
+- expected_values:
+    VELAR_EVAP_PURGE: 99.60784
+  response: 7E80462F42EFE

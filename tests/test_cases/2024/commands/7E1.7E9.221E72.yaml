@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221E72
+test_cases:
+- expected_values:
+    VELAR_TURBINE_SPD: 0
+  response: 7E904621E7200
+- expected_values:
+    VELAR_TURBINE_SPD: 2176
+  response: 7E904621E7244

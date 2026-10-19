@@ -1,0 +1,8 @@
+command_id: 7E1.221E69
+test_cases:
+- expected_values:
+    VELAR_ATF_T: 37
+  response: 7E904621E694D
+- expected_values:
+    VELAR_ATF_T: 88
+  response: 7E904621E6980

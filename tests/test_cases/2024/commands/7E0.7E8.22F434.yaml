@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    VELAR_O2_CURRENT: -0.5625
+    VELAR_O2_LAMBDA: 0.76672
+  response: 7E80762F43462247F70
+- expected_values:
+    VELAR_O2_CURRENT: -0.00781
+    VELAR_O2_LAMBDA: 1.00095
+  response: 7E80762F434801F7FFE
+- expected_values:
+    VELAR_O2_CURRENT: 0.00391
+    VELAR_O2_LAMBDA: 1.00952
+  response: 7E80762F43481388001
+- expected_values:
+    VELAR_O2_CURRENT: 0.10547
+    VELAR_O2_LAMBDA: 1.10159
+  response: 7E80762F4348D01801B
+- expected_values:
+    VELAR_O2_CURRENT: 0.66797
+    VELAR_O2_LAMBDA: 1.9999
+  response: 7E80762F434FFFF80AB
+- expected_values:
+    VELAR_O2_CURRENT: 1.08594
+    VELAR_O2_LAMBDA: 1.9999
+  response: 7E80762F434FFFF8116
