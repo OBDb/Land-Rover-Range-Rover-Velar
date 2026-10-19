@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F441
+test_cases:
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 491524
+  response: 7E80762F44100078004
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 2597285
+  response: 7E80762F4410027A1A5
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 2598309
+  response: 7E80762F4410027A5A5
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 2614757
+  response: 7E80762F4410027E5E5

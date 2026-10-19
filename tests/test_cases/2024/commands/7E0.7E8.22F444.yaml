@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F444
+test_cases:
+- expected_values:
+    VELAR_EQ_RATIO: 0.85034
+  response: 7E80562F4446CD8
+- expected_values:
+    VELAR_EQ_RATIO: 0.85156
+  response: 7E80562F4446D00
+- expected_values:
+    VELAR_EQ_RATIO: 1.9999
+  response: 7E80562F444FFFF

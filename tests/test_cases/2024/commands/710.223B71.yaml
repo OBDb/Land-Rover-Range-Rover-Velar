@@ -1,0 +1,8 @@
+command_id: 710.223B71
+test_cases:
+- expected_values:
+    VELAR_SUSPENSION_HEIGHT_FRONT: 80
+  response: 71804623B7150
+- expected_values:
+    VELAR_SUSPENSION_HEIGHT_FRONT: 108
+  response: 71804623B716C

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F407
+test_cases:
+- expected_values:
+    VELAR_LONGFT1: 0
+  response: 7E80462F40780
+- expected_values:
+    VELAR_LONGFT1: 72.65625
+  response: 7E80462F407DD

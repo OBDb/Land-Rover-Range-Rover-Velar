@@ -1,0 +1,8 @@
+command_id: 710.223B04
+test_cases:
+- expected_values:
+    VELAR_SUSPENSION_PRES_FL: 37.4
+  response: 71805623B0400BB
+- expected_values:
+    VELAR_SUSPENSION_PRES_FL: 46.2
+  response: 71805623B0400E7

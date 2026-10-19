@@ -1,0 +1,8 @@
+command_id: 7E6.222B06
+test_cases:
+- expected_values:
+    VELAR_FL_WHL_SPD: 0
+  response: 7EE04622B0600
+- expected_values:
+    VELAR_FL_WHL_SPD: 47
+  response: 7EE04622B062F

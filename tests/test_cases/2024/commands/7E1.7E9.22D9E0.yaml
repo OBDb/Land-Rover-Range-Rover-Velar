@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22D9E0
+test_cases:
+- expected_values:
+    VELAR_ENG_TQ: -100
+  response: 7E90462D9E000
+- expected_values:
+    VELAR_ENG_TQ: 160
+  response: 7E90462D9E041

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220434
+test_cases:
+- expected_values:
+    VELAR_DIST_SINCE_DPF_REGEN: 0
+  response: '7E80762043400000000'

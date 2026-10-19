@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F401
+test_cases:
+- expected_values:
+    VELAR_MONITOR_STATUS: 517380
+  response: 7E80762F4010007E504

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F447
+test_cases:
+- expected_values:
+    VELAR_THROTTLE_B: 10.58824
+  response: 7E80462F4471B
+- expected_values:
+    VELAR_THROTTLE_B: 27.84314
+  response: 7E80462F44747

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F415
+test_cases:
+- expected_values:
+    VELAR_O2_S2_VOLTAGE: 0.01
+  response: 7E80562F41502FF
+- expected_values:
+    VELAR_O2_S2_VOLTAGE: 0.84
+  response: 7E80562F415A8FF

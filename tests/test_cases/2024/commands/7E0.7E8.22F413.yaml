@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F413
+test_cases:
+- expected_values:
+    VELAR_O2_SENSORS_PRESENT: 7
+  response: 7E80462F41307

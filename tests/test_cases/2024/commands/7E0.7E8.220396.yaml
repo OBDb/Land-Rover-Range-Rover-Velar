@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220396
+test_cases:
+- expected_values:
+    VELAR_DIST_NEXT: 25433
+  response: '7E8056203966359'

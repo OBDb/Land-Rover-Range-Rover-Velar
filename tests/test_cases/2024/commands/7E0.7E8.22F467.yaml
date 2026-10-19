@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F467
+test_cases:
+- expected_values:
+    VELAR_CAC_COOLANT_TEMP: 26
+  response: 7E80662F467035742
+- expected_values:
+    VELAR_CAC_COOLANT_TEMP: 66
+  response: 7E80662F46703856A
+- expected_values:
+    VELAR_CAC_COOLANT_TEMP: 60
+  response: 7E80662F467039064

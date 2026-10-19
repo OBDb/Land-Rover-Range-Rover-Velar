@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22DD04
+test_cases:
+- expected_values:
+    VELAR_CAR_T: 26
+  response: 7E90462DD0442
+- expected_values:
+    VELAR_CAR_T: 27
+  response: 7E90462DD0443
+- expected_values:
+    VELAR_CAR_T: 28
+  response: 7E90462DD0444
+- expected_values:
+    VELAR_CAR_T: 29
+  response: 7E90462DD0445

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F410
+test_cases:
+- expected_values:
+    VELAR_MAF: 0
+  response: 7E80562F4100000
+- expected_values:
+    VELAR_MAF: 7.63
+  response: 7E80562F41002FB
+- expected_values:
+    VELAR_MAF: 34.94
+  response: 7E80562F4100DA6

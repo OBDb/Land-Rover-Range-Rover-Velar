@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    VELAR_PEDAL_D: 15.68627
+  response: 7E80462F44928
+- expected_values:
+    VELAR_PEDAL_D: 34.90196
+  response: 7E80462F44959

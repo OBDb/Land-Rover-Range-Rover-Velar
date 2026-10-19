@@ -1,17 +1,17 @@
 { "commands": [
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B03"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B03"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_PRES_FR", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Suspension pressure front right"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B04"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B04"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_PRES_FL", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Suspension pressure front left"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B05"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B05"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_PRES_RR", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Suspension pressure rear right"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B06"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B06"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_PRES_RL", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Suspension pressure rear left"}
   ]},
@@ -23,11 +23,11 @@
   "signals": [
     {"id": "VELAR_DRIVING_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving mode"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B71"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B71"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_HEIGHT_FRONT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Suspension height front"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "3B72"}, "freq": 1,
+{ "hdr": "710", "cmd": {"22": "3B72"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUSPENSION_HEIGHT_REAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Suspension height rear"}
   ]},
@@ -35,11 +35,11 @@
   "signals": [
     {"id": "VELAR_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "0202"}, "freq": 600,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "0202"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_726_0202_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "726 0202 raw", "description": "The only non-identification DID ever found on module 726, from a sweep of 0000-03FF. Has only ever returned 00.", "hidden": true}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "DD09"}, "freq": 0.25,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD09"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_VSS_726", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
@@ -67,39 +67,39 @@
   "signals": [
     {"id": "VELAR_CABIN_T_733", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "751", "dbg": true, "cmd": {"22": "2076"}, "freq": 5,
+{ "hdr": "751", "cmd": {"22": "2076"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 899.79, "mul": 0.01373, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "751", "dbg": true, "cmd": {"22": "2077"}, "freq": 5,
+{ "hdr": "751", "cmd": {"22": "2077"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 899.79, "mul": 0.01373, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "751", "dbg": true, "cmd": {"22": "2078"}, "freq": 5,
+{ "hdr": "751", "cmd": {"22": "2078"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 899.79, "mul": 0.01373, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "751", "dbg": true, "cmd": {"22": "2079"}, "freq": 5,
+{ "hdr": "751", "cmd": {"22": "2079"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 899.79, "mul": 0.01373, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "751", "dbg": true, "cmd": {"22": "207A"}, "freq": 15,
+{ "hdr": "751", "cmd": {"22": "207A"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SPARE_TIRE_P", "path": "Tires", "fmt": { "len": 16, "max": 89949, "mul": 1372549, "div": 1000000, "unit": "kilopascal" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "751", "rax": "759", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 1,
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2A0A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front left tire temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
-{ "hdr": "751", "rax": "759", "dbg": true, "cmd": {"22": "2A0B"}, "freq": 1,
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
-{ "hdr": "751", "rax": "759", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 1,
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2A0C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "751", "rax": "759", "dbg": true, "cmd": {"22": "2A0D"}, "freq": 1,
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2A0D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
@@ -111,11 +111,11 @@
   "signals": [
     {"id": "VELAR_DCDC_V_OUT", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "DC-DC voltage out"}
   ]},
-{ "hdr": "753", "dbg": true, "cmd": {"22": "4837"}, "freq": 1,
+{ "hdr": "753", "cmd": {"22": "4837"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DCDC_HV_V_IN", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "DC-DC HV voltage in"}
   ]},
-{ "hdr": "753", "dbg": true, "cmd": {"22": "DD02"}, "freq": 1,
+{ "hdr": "753", "cmd": {"22": "DD02"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_12V_BATTERY", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "volts" }, "name": "12V battery"}
   ]},
@@ -285,7 +285,7 @@
   "signals": [
     {"id": "VELAR_D11A_RAW", "path": "Suspension", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "D11A raw", "description": "Was called Suspension Module Voltage and scaled to volts. It is not battery voltage: across 221 paired samples its raw range spans 57 to 105, an 84% swing, while control module voltage moved only 12.51 to 14.75, an 18% swing, and the implied scale scatters by 9%. The old scaling also put it at 16.8 V, which no 12 V system reaches. Best correlation found so far is 0.58 against compressor activity, which is not enough to name it. Undecoded until something fits."}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03F3"}, "freq": 5,
+{ "hdr": "7E0", "cmd": {"22": "03F3"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SUMP_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Sump oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -297,15 +297,15 @@
   "signals": [
     {"id": "VELAR_HANDBRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "scalar" }, "name": "Handbrake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0317"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_EXH_CAM_POS_ACTUATOR_B_1", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 0.00305, "mul": 19997, "div": 6553500, "unit": "offon" }, "name": "Exhaust camshaft position actuator, B - duty cycle bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "033E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BOOST_ABS_P_RAW", "path": "Engine", "fmt": { "len": 16, "max": 500, "mul": 100, "div": 13107, "unit": "kilopascal" }, "name": "Boost absolute pressure raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0396"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0396"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DIST_NEXT", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to next maintenance"}
   ]},
@@ -313,11 +313,11 @@
   "signals": [
     {"id": "VELAR_DPF_DIFF_P_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 319, "mul": 12207, "div": 2500000, "unit": "volts" }, "name": "Diesel particulate filter differential pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03DD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BOOST_P_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Boost pressure actuator - controlled output"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03DF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DF"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BOOST_P_ACTUATOR_REQUIRED", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Boost pressure actuator - required"}
   ]},
@@ -349,7 +349,7 @@
   "signals": [
     {"id": "VELAR_DPF_DIFF_P", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0415"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -357,7 +357,7 @@
   "signals": [
     {"id": "VELAR_DPF_SPACE_LEFT", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "liters" }, "name": "Diesel particulate filter space left"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0429"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0429"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FUEL_T_SENS", "path": "Fuel", "fmt": { "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Fuel temperature sensor A"}
   ]},
@@ -369,19 +369,19 @@
   "signals": [
     {"id": "VELAR_EXH_GAS_VOLUMETRIC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "unknown" }, "name": "Exhaust gas volumetric flow rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0434"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0434"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DIST_SINCE_DPF_REGEN", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Distance since last DPF regen"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_AIR_CHG_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Air charge temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0520"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0520"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_INTERCOOLER_OUTLET_T_B1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intercooler outlet air temperature B1"}
   ]},
@@ -426,11 +426,11 @@
   "signals": [
     {"id": "VELAR_DPF_MAX_SOOT_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "percent" }, "name": "Diesel particulate filter, maximum soot load - open loop"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0599"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0599"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TURBOCHARGER_T_TOO", "path": "Battery", "fmt": {"bix": 21, "len": 1, "max": 1, "unit": "offon" }, "name": "Turbocharger temperature too high"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05A4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05A4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_OIL_PMP_SOLENOID_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Oil pump solenoid position"}
   ]},
@@ -446,23 +446,23 @@
   "signals": [
     {"id": "VELAR_AUXILIARY_CLT_PMP", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Auxiliary coolant pump, desired value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05D9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05D9"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_PISTON_COOLING_INJ", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 0.00305, "mul": 40, "div": 13107, "unit": "offon" }, "name": "Piston cooling injector valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05DA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05DA"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CLT_PMP_VARIABLE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 0.392, "mul": 20, "div": 51, "unit": "offon" }, "name": "Coolant pump variable flow drive position - measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05DB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05DB"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CLT_PMP_VARIABLE_V", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.000976, "mul": 64, "div": 65535, "unit": "offon" }, "name": "Coolant pump variable flow drive position sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05DD"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05DD"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CYL_T", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": -39, "min": -40, "add": -40, "unit": "offon" }, "name": "Cylinder temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05F6"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05F6"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_VARIABLE_VLV_CTRL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Variable valve control system oil temperature"}
   ]},
@@ -473,7 +473,7 @@
     {"id": "VELAR_QTY_CORR_CYL_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Quantity correction for, cylinder 3"},
     {"id": "VELAR_QTY_CORR_CYL_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Quantity correction for, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "061F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "061F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DPF_SOOT", "path": "Engine", "fmt": { "len": 16, "max": 99.99, "mul": 15259, "div": 10000000, "unit": "unknown" }, "name": "Diesel particulate filter soot"}
   ]},
@@ -481,7 +481,7 @@
   "signals": [
     {"id": "VELAR_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 15.9375, "mul": 625, "div": 10000, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1310"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1310"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_EOT_ESTIMATED", "path": "Engine", "fmt": { "len": 16, "max": 615, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature estimated"}
   ]},
@@ -497,11 +497,11 @@
   "signals": [
     {"id": "VELAR_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E00"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E00"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CALC_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Calculated engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "6310"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "6310"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_GEAR_DISPLAY_RAW_CNT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear display, raw count"}
   ]},
@@ -509,7 +509,7 @@
   "signals": [
     {"id": "VELAR_DPF_P_DROP_MEAS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter pressure drop measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "DD01"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DD01"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ODO_ECM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmin": 0, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -517,11 +517,11 @@
   "signals": [
     {"id": "VELAR_DIST_SINCE_DPF", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Distance since DPF replacement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F401"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F401"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MONITOR_STATUS", "path": "ECU", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Monitor status raw", "description": "SAE J1979 PID 01: MIL state, stored DTC count and readiness monitors. Listed as supported by the ECM's own bitmask but never once requested. Top byte is the DTC count with the MIL bit; a non-zero value here is the cheapest possible check for a stored fault.", "hidden": true}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F403"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F403"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FUEL_SYS_B2", "path": "Fuel", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel system status B2", "description": "Bank 2 fuel system status. Has mirrored bank 1 on every sample so far."},
     {"id": "VELAR_FUEL_SYS_B1", "path": "Fuel", "name": "Fuel system status B1", "fmt": {"len": 8, "map": {
@@ -533,19 +533,19 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F404"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_LOAD_CALC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Calculated load", "suggestedMetric": "engineLoad"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F405"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F405"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_COOLANT_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temp", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F406"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SHRTFT1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Short term fuel trim B1", "suggestedMetric": "shortTermFuelTrim"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F407"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_LONGFT1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Long term fuel trim B1"}
   ]},
@@ -557,79 +557,79 @@
   "signals": [
     {"id": "VELAR_LONGFT2", "path": "Fuel", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Long term fuel trim B2", "description": "Bank 2. There is no long-term fuel trim metric slot, so this does not surface as a connectable."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MAP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40C"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 2, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed", "suggestedMetric": "engineSpeed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40D"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 2, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40E"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40E"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SPARK_ADV", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40F"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_IAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temp"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F410"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F410"}, "freq": 2, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow", "suggestedMetric": "massAirFlow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F411"}, "freq": 10,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 10, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_THROTTLE_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Throttle position", "suggestedMetric": "throttlePosition"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F413"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F413"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_O2_SENSORS_PRESENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "O2 sensors present raw", "description": "SAE J1979 PID 13, a bitmask of which oxygen sensor positions exist. Answered 0x77 on its one logged sample. Static, but it says exactly which O2 PIDs are worth probing.", "hidden": true}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F415"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F415"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_O2_S2_VOLTAGE", "path": "Engine", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "volts" }, "name": "O2 voltage B1S2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F41C"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41C"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_OBD_STANDARD", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Emissions standard raw", "description": "SAE J1979 PID 1C, which OBD standard this ECM claims. Supported per the bitmask, never requested. Static.", "hidden": true}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F41F"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Run time since engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F421"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MIL_DIST", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F423"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F423"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FUEL_RAIL_GAUGE_P", "path": "Fuel", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Fuel rail gauge pressure", "description": "SAE J1979 PID 23, ranging 29 to 197 bar, the right shape for this engine's direct injection rail. It is not the same measurement as the proprietary DID 033E: across 157 paired samples the ratio between them drifts from 0.41 to 0.56 rather than holding constant, and in one stretch this PID sat pinned near 197 bar while 033E climbed from 79 to 110 bar. A fixed scaling error would give a fixed ratio, so these are two different quantities - plausibly a commanded rail target against a measured one. Worth sampling hard under load to separate them."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42E"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42E"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_EVAP_PURGE", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Commanded evap purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F430"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_WARMUPS", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since codes cleared", "description": "Saturated. The PID is a single byte and has been pinned at 255 for as long as it has been logged, so it says only that codes were cleared more than 255 warm-up cycles ago."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F431"}, "freq": 300,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 300, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DIST_SINCE_CLR", "path": "Trips", "fmt": { "len": 16, "max": 65535, "nullmin": 0, "unit": "kilometers" }, "name": "Distance since codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F433"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BARO", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F434"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_O2_LAMBDA",  "path": "Engine", "fmt": {           "len": 16, "max": 1.9999,               "div": 32768,              "nullmin": 0, "unit": "scalar"    }, "name": "O2 lambda B1S1",       "suggestedMetric": "o2Lambda"},
     {"id": "VELAR_O2_CURRENT", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 127.996, "min": -128, "div": 256,   "add": -128,               "unit": "milliamps" }, "name": "O2 pump current B1S1", "description": "The second word of SAE J1979 PID 34 is sensor current, not voltage; the voltage variants are PIDs 24 to 2B, which this ECM does not support. Read as voltage it sat at a meaningless flat 4.0 across 28,432 samples. Read as current it spans -0.95 to +1.36 mA with a mean of +0.16, which is what a wideband pump cell should do."}
@@ -639,7 +639,7 @@
     {"id": "VELAR_O2_LAMBDA_B2",  "path": "Engine", "fmt": {           "len": 16, "max": 1.999,                "div": 32768,              "unit": "scalar"    }, "name": "O2 lambda B2S1",       "description": "Bank 2 sensor 1. Rails at FFFF on roughly half of samples; treat those as invalid rather than lean."},
     {"id": "VELAR_O2_CURRENT_B2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 127.996, "min": -128, "div": 256,   "add": -128, "unit": "milliamps" }, "name": "O2 pump current B2S1", "description": "Bank 2 counterpart. See O2 Pump Current B1S1 - PID 38 reports current, not voltage."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F43C"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CAT_TEMP_B1", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temp B1S1"}
   ]},
@@ -647,51 +647,51 @@
   "signals": [
     {"id": "VELAR_CAT_TEMP_B2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temp B2S1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F441"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F441"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MONITOR_THIS_CYCLE", "path": "ECU", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Monitor status this cycle raw", "description": "SAE J1979 PID 41, readiness monitors for the current drive cycle. Supported per the ECM bitmask, never requested. Changes across a drive as monitors complete, so unlike PID 01 it should not be static.", "hidden": true}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F442"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ECM_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F443"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_LOAD_ABS", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Absolute load", "suggestedMetric": "absoluteEngineLoad"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F444"}, "freq": 3,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F444"}, "freq": 3, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_EQ_RATIO", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Equivalence ratio", "suggestedMetric": "commandedLambda"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F445"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F445"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_THROTTLE_REL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Relative throttle position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F446"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_AMBIENT_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temp"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F447"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F447"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_THROTTLE_B", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Absolute throttle position b"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F449"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_PEDAL_D", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal d"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F44A"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_PEDAL_E", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal e"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F44C"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44C"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_THROTTLE_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Commanded throttle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F451"}, "freq": 600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F451"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FUEL_TYPE", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel type raw", "description": "SAE J1979 PID 51. Supported per the ECM bitmask, never requested. Static, one sample settles it.", "hidden": true}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F456"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F456"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_SEC_O2_TRIM_B1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Long term secondary O2 trim B1"}
   ]},
@@ -699,16 +699,16 @@
   "signals": [
     {"id": "VELAR_SEC_O2_TRIM_B2", "path": "Fuel", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Long term secondary O2 trim B2", "description": "SAE J1979 PID 58, the bank 2 counterpart to PID 56. Previously carried as an undecoded raw byte and briefly deleted on the mistaken reading that its single logged reply was a negative response; 62F458 7F is a positive reply meaning -0.78%."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F466"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F466"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_MAF_A", "path": "Engine", "fmt": {"bix": 8,  "len": 16, "max": 2047.96, "div": 32, "unit": "gramsPerSecond" }, "name": "Mass air flow a", "description": "One of two intake tract sensors. Across 1,474 samples A and B sum to 0.88 of the single MAF PID by least squares, but the scatter between individual pairs is large enough that the split between the two is not trustworthy at this polling rate. Use the single MAF PID for anything quantitative."},
     {"id": "VELAR_MAF_B", "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 2047.96, "div": 32, "unit": "gramsPerSecond" }, "name": "Mass air flow b", "description": "One of two intake tract sensors. See Mass Air Flow A."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F467"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F467"}, "freq": 60, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CAC_COOLANT_TEMP", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge cooler coolant temp", "description": "The AJ126 runs a separate low-temperature circuit for the supercharger intercooler. Over 135 paired samples this sat 11.7 C above ambient and 24 C below charge air temperature, which is where that circuit belongs. Sensor 1 of the same PID was dropped: it matched the engine coolant PID to 0.0 C."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F468"}, "freq": 120,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F468"}, "freq": 120, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_IAT_1", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temp sensor 1", "description": "Pre-supercharger inlet air, measured 9.2 C above ambient over 135 samples."},
     {"id": "VELAR_IAT_2", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temp sensor 2", "description": "Post-supercharger charge air. Tracks the proprietary charge air temperature DID to within 2.7 C on average, so it is close to redundant with it."}
@@ -717,43 +717,43 @@
   "signals": [
     {"id": "VELAR_BOOST_A", "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 2047.9687, "div": 32, "unit": "kilopascal" }, "name": "Manifold pressure, fine", "description": "SAE J1979 PID 70 channel A. Over 525 samples it tracks the 1 kPa manifold pressure PID to within 1.3 kPa on average, so it is the same measurement at 1/32 kPa resolution, not a separate pre-throttle sensor. The other three channels the PID defines read a constant zero and have been removed."}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1E12"}, "freq": 0.25,
+{ "hdr": "7E1", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_GEAR_CMD", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear, commanded"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1E1F"}, "freq": 0.25,
+{ "hdr": "7E1", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_GEAR_ENGAGED", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear engaged"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1E69"}, "freq": 5,
+{ "hdr": "7E1", "cmd": {"22": "1E69"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1F12"}, "freq": 5,
+{ "hdr": "7E1", "cmd": {"22": "1F12"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TQ_CONV_T", "path": "Transmission", "fmt": { "len": 8, "max": 470, "min": -40, "mul": 2, "add": -40, "unit": "celsius" }, "name": "Torque converter temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E65"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E65"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TRANS_FLUID_OVER_T", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission fluid over temperature counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E66"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E66"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ENG_OIL_OVER_T_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil over temperature counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E68"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E68"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TRANS_OUTPUT_SHFT", "path": "Transmission", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E6A"}, "freq": 600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E6A"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_1E6A_RAW", "path": "Drivetrain", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "1E6A raw", "description": "Undecoded transmission DID, neighbour of the gearbox temperature.", "hidden": true}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E71"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E71"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ENG_CLT_OVER_T_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine coolant over temperature counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E72"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E72"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TURBINE_SPD", "path": "Movement", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "Turbine speed"}
   ]},
@@ -761,7 +761,7 @@
   "signals": [
     {"id": "VELAR_TOT_DIST", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E7E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E7E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CLU_FILLING_P",   "path": "Transmission", "fmt": {           "len": 16, "max": 65535, "unit": "unknown" }, "name": "Clutch a filling pressure"},
     {"id": "VELAR_CLU_B_FILLING_P", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "unknown" }, "name": "Clutch b filling pressure"},
@@ -769,19 +769,19 @@
     {"id": "VELAR_CLU_D_FILLING_P", "path": "Transmission", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "unknown" }, "name": "Clutch d filling pressure"},
     {"id": "VELAR_CLU_E_FILLING_P", "path": "Transmission", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "unknown" }, "name": "Clutch e filling pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "201C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "201C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_TRANSFER_CASE_HIGH_1_0", "path": "Trips", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Transfer case high, 1/low, 0 range"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "D9E0"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "D9E0"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_ENG_TQ", "path": "Engine", "fmt": { "len": 8, "max": 920, "min": -100, "mul": 4, "add": -100, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD01"}, "freq": 600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 600, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_DD01_RAW", "path": "Drivetrain", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "DD01 raw", "hidden": true}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD04"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_CAR_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "In-car temperature"}
   ]},
@@ -837,19 +837,19 @@
   "signals": [
     {"id": "VELAR_ODO", "path": "Movement", "fmt": { "len": 24, "max": 1000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4903"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4903"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_HVB_CELL_V_MAX", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Cell voltage, maximum"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4904"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4904"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Cell voltage, minimum"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4905"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4905"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BATTERY_T_MAX", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Battery temperature, maximum"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4906"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4906"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_BATTERY_T_MIN", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Battery temperature, minimum"}
   ]},
@@ -861,7 +861,7 @@
   "signals": [
     {"id": "VELAR_HVB_CURR", "path": "Battery", "fmt": { "len": 16, "max": 819.175, "min": -500, "div": 40, "sign": true, "unit": "amps" }, "name": "Current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "490F"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "490F"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_HVB_V", "path": "Battery", "fmt": { "len": 16, "max": 450, "div": 100, "unit": "volts" }, "name": "High voltage battery voltage"}
   ]},
@@ -896,23 +896,23 @@
     {"id": "VELAR_CHARGER_MODE",             "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Charger mode"},
     {"id": "VELAR_CONNECTION_STS_CONNECTED", "path": "Engine",  "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Connection status: connected"}
   ]},
-{ "hdr": "7E6", "dbg": true, "cmd": {"22": "2B06"}, "freq": 0.25,
+{ "hdr": "7E6", "cmd": {"22": "2B06"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7E6", "dbg": true, "cmd": {"22": "2B07"}, "freq": 0.25,
+{ "hdr": "7E6", "cmd": {"22": "2B07"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E6", "dbg": true, "cmd": {"22": "2B08"}, "freq": 0.25,
+{ "hdr": "7E6", "cmd": {"22": "2B08"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E6", "dbg": true, "cmd": {"22": "2B09"}, "freq": 0.25,
+{ "hdr": "7E6", "cmd": {"22": "2B09"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "2808"}, "freq": 0.25,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "2808"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "VELAR_FL_WHL_SPD_7E6", "path": "Tires", "fmt": {           "len": 16, "max": 4276, "mul": 16313, "div": 250000, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "VELAR_FR_WHL_SPD_7E6", "path": "Tires", "fmt": {"bix": 16, "len": 16, "max": 4276, "mul": 16313, "div": 250000, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},

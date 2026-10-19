@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40B
+test_cases:
+- expected_values:
+    VELAR_MAP: 25
+  response: 7E80462F40B19
+- expected_values:
+    VELAR_MAP: 102
+  response: 7E80462F40B66

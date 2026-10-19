@@ -1,0 +1,17 @@
+command_id: '753.224837'
+test_cases:
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 90
+  response: 75B05624837005A
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 91
+  response: 75B05624837005B
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 92
+  response: 75B05624837005C
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 94
+  response: 75B05624837005E
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 96
+  response: 75B056248370060

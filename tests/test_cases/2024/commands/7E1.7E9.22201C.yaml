@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22201C
+test_cases:
+- expected_values:
+    VELAR_TRANSFER_CASE_HIGH_1_0: 0
+  response: 7E90562201C0000
+- expected_values:
+    VELAR_TRANSFER_CASE_HIGH_1_0: 0
+  response: 7E90562201C0001

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2205DD
+test_cases:
+- expected_values:
+    VELAR_CYL_T: -40
+  response: 7E8046205DD32
+- expected_values:
+    VELAR_CYL_T: -40
+  response: 7E8046205DD6C

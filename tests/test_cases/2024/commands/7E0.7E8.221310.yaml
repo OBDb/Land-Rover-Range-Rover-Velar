@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221310
+test_cases:
+- expected_values:
+    VELAR_EOT_ESTIMATED: 38.35
+  response: 7E8056213101E9B
+- expected_values:
+    VELAR_EOT_ESTIMATED: 72.64
+  response: 7E8056213102C00
+- expected_values:
+    VELAR_EOT_ESTIMATED: 75.15
+  response: 7E8056213102CFB
+- expected_values:
+    VELAR_EOT_ESTIMATED: 98.35
+  response: 7E805621310360B

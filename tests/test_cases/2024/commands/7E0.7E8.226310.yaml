@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.226310
+test_cases:
+- expected_values:
+    VELAR_GEAR_DISPLAY_RAW_CNT: 0
+  response: '7E80462631000'
+- expected_values:
+    VELAR_GEAR_DISPLAY_RAW_CNT: 1
+  response: '7E80462631001'
+- expected_values:
+    VELAR_GEAR_DISPLAY_RAW_CNT: 3
+  response: '7E80462631003'
+- expected_values:
+    VELAR_GEAR_DISPLAY_RAW_CNT: 16
+  response: '7E80462631010'

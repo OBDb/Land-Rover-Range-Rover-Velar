@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2205D9
+test_cases:
+- expected_values:
+    VELAR_PISTON_COOLING_INJ: 0
+  response: 7E8056205D90000
+- expected_values:
+    VELAR_PISTON_COOLING_INJ: 0.00305
+  response: 7E8056205D97FFF
