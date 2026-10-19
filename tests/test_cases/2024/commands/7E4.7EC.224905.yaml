@@ -4,17 +4,5 @@ test_cases:
     VELAR_BATTERY_T_MAX: 2.5
   response: 7EC0462490555
 - expected_values:
-    VELAR_BATTERY_T_MAX: 3.5
-  response: 7EC0462490557
-- expected_values:
-    VELAR_BATTERY_T_MAX: 4
-  response: 7EC0462490558
-- expected_values:
-    VELAR_BATTERY_T_MAX: 4.5
-  response: 7EC0462490559
-- expected_values:
-    VELAR_BATTERY_T_MAX: 6
-  response: 7EC046249055C
-- expected_values:
-    VELAR_BATTERY_T_MAX: 8
-  response: 7EC0462490560
+    VELAR_BATTERY_T_MAX: 13.5
+  response: 7EC046249056B

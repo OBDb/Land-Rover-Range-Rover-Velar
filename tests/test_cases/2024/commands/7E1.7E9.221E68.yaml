@@ -4,5 +4,5 @@ test_cases:
     VELAR_TRANS_OUTPUT_SHFT: 0
   response: 7E904621E6800
 - expected_values:
-    VELAR_TRANS_OUTPUT_SHFT: 1024
-  response: 7E904621E6820
+    VELAR_TRANS_OUTPUT_SHFT: 3456
+  response: 7E904621E686C

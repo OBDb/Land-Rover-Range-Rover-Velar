@@ -7,5 +7,17 @@ test_cases:
     VELAR_TP_FL: 2.22426
   response: 7590562207600A2
 - expected_values:
+    VELAR_TP_FL: 2.25172
+  response: 7590562207600A4
+- expected_values:
     VELAR_TP_FL: 2.27918
   response: 7590562207600A6
+- expected_values:
+    VELAR_TP_FL: 2.30664
+  response: 7590562207600A8
+- expected_values:
+    VELAR_TP_FL: 2.3341
+  response: 7590562207600AA
+- expected_values:
+    VELAR_TP_FL: 2.36156
+  response: 7590562207600AC

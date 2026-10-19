@@ -4,5 +4,5 @@ test_cases:
     VELAR_THROTTLE_REL: 0.39216
   response: 7E80462F44501
 - expected_values:
-    VELAR_THROTTLE_REL: 16.86275
-  response: 7E80462F4452B
+    VELAR_THROTTLE_REL: 47.45098
+  response: 7E80462F44579

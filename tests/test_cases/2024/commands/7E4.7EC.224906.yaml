@@ -4,17 +4,5 @@ test_cases:
     VELAR_BATTERY_T_MIN: 1.5
   response: 7EC0462490653
 - expected_values:
-    VELAR_BATTERY_T_MIN: 2
-  response: 7EC0462490654
-- expected_values:
-    VELAR_BATTERY_T_MIN: 2.5
-  response: 7EC0462490655
-- expected_values:
-    VELAR_BATTERY_T_MIN: 3.5
-  response: 7EC0462490657
-- expected_values:
-    VELAR_BATTERY_T_MIN: 4.5
-  response: 7EC0462490659
-- expected_values:
-    VELAR_BATTERY_T_MIN: 7
-  response: 7EC046249065E
+    VELAR_BATTERY_T_MIN: 13
+  response: 7EC046249066A

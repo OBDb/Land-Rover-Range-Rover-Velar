@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F411
 test_cases:
 - expected_values:
-    VELAR_THROTTLE_POS: 11.37255
-  response: 7E80462F4111D
+    VELAR_THROTTLE_POS: 10.58824
+  response: 7E80462F4111B
 - expected_values:
-    VELAR_THROTTLE_POS: 21.96078
-  response: 7E80462F41138
+    VELAR_THROTTLE_POS: 61.17647
+  response: 7E80462F4119C

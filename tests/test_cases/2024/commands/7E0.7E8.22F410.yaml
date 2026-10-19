@@ -4,8 +4,8 @@ test_cases:
     VELAR_MAF: 0
   response: 7E80562F4100000
 - expected_values:
-    VELAR_MAF: 7.63
-  response: 7E80562F41002FB
+    VELAR_MAF: 25.58
+  response: 7E80562F41009FE
 - expected_values:
-    VELAR_MAF: 34.94
-  response: 7E80562F4100DA6
+    VELAR_MAF: 73.52
+  response: 7E80562F4101CB8

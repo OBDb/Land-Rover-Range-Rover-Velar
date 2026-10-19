@@ -7,5 +7,5 @@ test_cases:
     VELAR_CALC_ENG_TQ: 51.1
   response: 7E805621E0001FF
 - expected_values:
-    VELAR_CALC_ENG_TQ: 155.6
-  response: 7E805621E000614
+    VELAR_CALC_ENG_TQ: 337
+  response: 7E805621E000D2A

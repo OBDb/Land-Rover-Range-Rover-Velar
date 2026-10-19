@@ -4,5 +4,5 @@ test_cases:
     VELAR_FR_WHL_SPD: 0
   response: 7EE04622B0700
 - expected_values:
-    VELAR_FR_WHL_SPD: 47
-  response: 7EE04622B072F
+    VELAR_FR_WHL_SPD: 138
+  response: 7EE04622B078A

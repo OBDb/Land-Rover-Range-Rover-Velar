@@ -4,5 +4,5 @@ test_cases:
     VELAR_VARIABLE_VLV_CTRL_T: 40
   response: 7E8046205F650
 - expected_values:
-    VELAR_VARIABLE_VLV_CTRL_T: 103
-  response: 7E8046205F68F
+    VELAR_VARIABLE_VLV_CTRL_T: 107
+  response: 7E8046205F693

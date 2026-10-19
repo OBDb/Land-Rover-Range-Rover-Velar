@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F456
 test_cases:
 - expected_values:
+    VELAR_SEC_O2_TRIM_B1: -0.78125
+  response: 7E80462F4567F
+- expected_values:
     VELAR_SEC_O2_TRIM_B1: 0
   response: 7E80462F45680
