@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     VELAR_CAR_T: 29
   response: 7E90462DD0445
+- expected_values:
+    VELAR_CAR_T: 30
+  response: 7E90462DD0446
+- expected_values:
+    VELAR_CAR_T: 31
+  response: 7E90462DD0447
+- expected_values:
+    VELAR_CAR_T: 32
+  response: 7E90462DD0448

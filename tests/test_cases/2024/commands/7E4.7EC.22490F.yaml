@@ -1,11 +1,14 @@
 command_id: 7E4.7EC.22490F
 test_cases:
 - expected_values:
-    VELAR_HVB_V: 45.59
-  response: 7EC0562490F11CF
+    VELAR_HVB_V: 45.24
+  response: 7EC0562490F11AC
 - expected_values:
     VELAR_HVB_V: 46.07
   response: 7EC0562490F11FF
 - expected_values:
     VELAR_HVB_V: 46.09
   response: 7EC0562490F1201
+- expected_values:
+    VELAR_HVB_V: 48.88
+  response: 7EC0562490F1318

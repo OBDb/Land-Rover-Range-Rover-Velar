@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    VELAR_CAT_TEMP_B1: 344.6
-  response: 7E80562F43C0F06
+    VELAR_CAT_TEMP_B1: 260.6
+  response: 7E80562F43C0BBE
 - expected_values:
     VELAR_CAT_TEMP_B1: 446.3
   response: 7E80562F43C12FF
 - expected_values:
-    VELAR_CAT_TEMP_B1: 526.2
-  response: 7E80562F43C161E
+    VELAR_CAT_TEMP_B1: 702.7
+  response: 7E80562F43C1D03
+- expected_values:
+    VELAR_CAT_TEMP_B1: 783.2
+  response: 7E80562F43C2028

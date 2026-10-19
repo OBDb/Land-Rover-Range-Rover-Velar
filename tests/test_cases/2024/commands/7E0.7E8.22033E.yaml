@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22033E
 test_cases:
 - expected_values:
-    VELAR_BOOST_ABS_P_RAW: 23.82696
-  response: 7E80562033E0C33
+    VELAR_BOOST_ABS_P_RAW: 22.85801
+  response: 7E80562033E0BB4
 - expected_values:
     VELAR_BOOST_ABS_P_RAW: 41.00862
   response: 7E80562033E14FF
@@ -10,5 +10,5 @@ test_cases:
     VELAR_BOOST_ABS_P_RAW: 83.98566
   response: 7E80562033E2B00
 - expected_values:
-    VELAR_BOOST_ABS_P_RAW: 102.39567
-  response: 7E80562033E346D
+    VELAR_BOOST_ABS_P_RAW: 136.04944
+  response: 7E80562033E45A8

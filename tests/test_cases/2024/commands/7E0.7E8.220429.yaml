@@ -10,5 +10,5 @@ test_cases:
     VELAR_FUEL_T_SENS: 47.9232
   response: 7E8056204290C00
 - expected_values:
-    VELAR_FUEL_T_SENS: 83.8656
-  response: '7E8056204291500'
+    VELAR_FUEL_T_SENS: 95.8464
+  response: '7E8056204291800'

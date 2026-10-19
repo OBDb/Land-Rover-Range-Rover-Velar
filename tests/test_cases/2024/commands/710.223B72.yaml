@@ -1,8 +1,8 @@
 command_id: 710.223B72
 test_cases:
 - expected_values:
-    VELAR_SUSPENSION_HEIGHT_REAR: 93
-  response: 71804623B725D
+    VELAR_SUSPENSION_HEIGHT_REAR: 88
+  response: 71804623B7258
 - expected_values:
     VELAR_SUSPENSION_HEIGHT_REAR: 117
   response: 71804623B7275

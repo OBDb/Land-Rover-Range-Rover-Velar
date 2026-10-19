@@ -4,5 +4,5 @@ test_cases:
     VELAR_PEDAL_E: 15.68627
   response: 7E80462F44A28
 - expected_values:
-    VELAR_PEDAL_E: 33.72549
-  response: 7E80462F44A56
+    VELAR_PEDAL_E: 40.78431
+  response: 7E80462F44A68

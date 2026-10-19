@@ -4,5 +4,5 @@ test_cases:
     VELAR_ENG_TQ: -100
   response: 7E90462D9E000
 - expected_values:
-    VELAR_ENG_TQ: 160
-  response: 7E90462D9E041
+    VELAR_ENG_TQ: 332
+  response: 7E90462D9E06C

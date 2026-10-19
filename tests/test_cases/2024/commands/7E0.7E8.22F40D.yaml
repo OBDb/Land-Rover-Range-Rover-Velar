@@ -4,5 +4,5 @@ test_cases:
     VELAR_SPEED: 0
   response: 7E80462F40D00
 - expected_values:
-    VELAR_SPEED: 37
-  response: 7E80462F40D25
+    VELAR_SPEED: 133
+  response: 7E80462F40D85

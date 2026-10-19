@@ -4,17 +4,5 @@ test_cases:
     VELAR_TT_FR: 17
   response: 75904622A0B43
 - expected_values:
-    VELAR_TT_FR: 19
-  response: 75904622A0B45
-- expected_values:
-    VELAR_TT_FR: 20
-  response: 75904622A0B46
-- expected_values:
-    VELAR_TT_FR: 22
-  response: 75904622A0B48
-- expected_values:
-    VELAR_TT_FR: 23
-  response: 75904622A0B49
-- expected_values:
-    VELAR_TT_FR: 25
-  response: 75904622A0B4B
+    VELAR_TT_FR: 31
+  response: 75904622A0B51

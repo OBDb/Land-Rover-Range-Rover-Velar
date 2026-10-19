@@ -1,11 +1,11 @@
 command_id: 7E4.7EC.224904
 test_cases:
 - expected_values:
-    VELAR_HVB_CELL_V_MIN: 3250
-  response: 7EC056249040CB2
+    VELAR_HVB_CELL_V_MIN: 3230
+  response: 7EC056249040C9E
 - expected_values:
-    VELAR_HVB_CELL_V_MIN: 3322
-  response: 7EC056249040CFA
+    VELAR_HVB_CELL_V_MIN: 3324
+  response: 7EC056249040CFC
 - expected_values:
     VELAR_HVB_CELL_V_MIN: 3329
   response: 7EC056249040D01

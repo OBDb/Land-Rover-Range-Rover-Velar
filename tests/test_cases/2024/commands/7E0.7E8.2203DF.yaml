@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     VELAR_BOOST_P_ACTUATOR_REQUIRED: 0
   response: 7E8056203DF0000
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR_REQUIRED: 65.23384
+  response: 7E8056203DFA6FF
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR_REQUIRED: 95.93347
+  response: 7E8056203DFF596

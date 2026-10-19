@@ -4,5 +4,5 @@ test_cases:
     VELAR_LONGFT1: 0
   response: 7E80462F40780
 - expected_values:
-    VELAR_LONGFT1: 72.65625
-  response: 7E80462F407DD
+    VELAR_LONGFT1: 96.09375
+  response: 7E80462F407FB

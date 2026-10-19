@@ -4,14 +4,8 @@ test_cases:
     VELAR_DD01_RAW: 13500
   response: 7E90662DD010034BC
 - expected_values:
-    VELAR_DD01_RAW: 13502
-  response: 7E90662DD010034BE
+    VELAR_DD01_RAW: 13558
+  response: 7E90662DD010034F6
 - expected_values:
-    VELAR_DD01_RAW: 13505
-  response: 7E90662DD010034C1
-- expected_values:
-    VELAR_DD01_RAW: 13507
-  response: 7E90662DD010034C3
-- expected_values:
-    VELAR_DD01_RAW: 13519
-  response: 7E90662DD010034CF
+    VELAR_DD01_RAW: 13578
+  response: 7E90662DD0100350A

@@ -10,8 +10,23 @@ test_cases:
     VELAR_DCDC_HV_V_IN: 92
   response: 75B05624837005C
 - expected_values:
+    VELAR_DCDC_HV_V_IN: 93
+  response: 75B05624837005D
+- expected_values:
     VELAR_DCDC_HV_V_IN: 94
   response: 75B05624837005E
 - expected_values:
+    VELAR_DCDC_HV_V_IN: 95
+  response: 75B05624837005F
+- expected_values:
     VELAR_DCDC_HV_V_IN: 96
   response: 75B056248370060
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 97
+  response: 75B056248370061
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 98
+  response: 75B056248370062
+- expected_values:
+    VELAR_DCDC_HV_V_IN: 99
+  response: 75B056248370063

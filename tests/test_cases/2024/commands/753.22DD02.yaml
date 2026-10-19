@@ -7,6 +7,9 @@ test_cases:
     VELAR_12V_BATTERY: 12.5
   response: 75B0462DD0232
 - expected_values:
+    VELAR_12V_BATTERY: 13.5
+  response: 75B0462DD0236
+- expected_values:
     VELAR_12V_BATTERY: 13.75
   response: 75B0462DD0237
 - expected_values:

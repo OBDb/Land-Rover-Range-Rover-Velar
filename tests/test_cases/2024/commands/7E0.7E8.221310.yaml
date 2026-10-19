@@ -7,8 +7,8 @@ test_cases:
     VELAR_EOT_ESTIMATED: 72.64
   response: 7E8056213102C00
 - expected_values:
-    VELAR_EOT_ESTIMATED: 75.15
-  response: 7E8056213102CFB
+    VELAR_EOT_ESTIMATED: 103.35
+  response: 7E80562131037FF
 - expected_values:
-    VELAR_EOT_ESTIMATED: 98.35
-  response: 7E805621310360B
+    VELAR_EOT_ESTIMATED: 103.44
+  response: '7E8056213103808'
