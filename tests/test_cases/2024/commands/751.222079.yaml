@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     VELAR_TP_RL: 2.80092
   response: 7590562207900CC
+- expected_values:
+    VELAR_TP_RL: 2.82838
+  response: 7590562207900CE
