@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     VELAR_ODO_ECM: 13578
   response: 7E80662DD0100350A
+- expected_values:
+    VELAR_ODO_ECM: 13847
+  response: 7E80662DD01003617

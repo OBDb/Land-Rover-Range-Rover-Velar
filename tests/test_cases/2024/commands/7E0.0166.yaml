@@ -1,0 +1,62 @@
+command_id: 7E0.0166
+test_cases:
+- expected_values:
+    MAFA: 1.5625
+    MAFA_SUP: 1
+    MAFB: 1.90625
+    MAFB_SUP: 1
+  response: 7E8074166030032003D
+- expected_values:
+    MAFA: 1.625
+    MAFA_SUP: 1
+    MAFB: 1.9375
+    MAFB_SUP: 1
+  response: 7E8074166030034003E
+- expected_values:
+    MAFA: 2.03125
+    MAFA_SUP: 1
+    MAFB: 2.3125
+    MAFB_SUP: 1
+  response: 7E8074166030041004A
+- expected_values:
+    MAFA: 2.0625
+    MAFA_SUP: 1
+    MAFB: 2.34375
+    MAFB_SUP: 1
+  response: 7E8074166030042004B
+- expected_values:
+    MAFA: 2.0625
+    MAFA_SUP: 1
+    MAFB: 2.375
+    MAFB_SUP: 1
+  response: 7E8074166030042004C
+- expected_values:
+    MAFA: 2.09375
+    MAFA_SUP: 1
+    MAFB: 2.375
+    MAFB_SUP: 1
+  response: 7E8074166030043004C
+- expected_values:
+    MAFA: 2.125
+    MAFA_SUP: 1
+    MAFB: 2.4375
+    MAFB_SUP: 1
+  response: 7E8074166030044004E
+- expected_values:
+    MAFA: 2.15625
+    MAFA_SUP: 1
+    MAFB: 2.4375
+    MAFB_SUP: 1
+  response: 7E8074166030045004E
+- expected_values:
+    MAFA: 2.1875
+    MAFA_SUP: 1
+    MAFB: 2.46875
+    MAFB_SUP: 1
+  response: 7E8074166030046004F
+- expected_values:
+    MAFA: 2.21875
+    MAFA_SUP: 1
+    MAFB: 2.46875
+    MAFB_SUP: 1
+  response: 7E8074166030047004F
