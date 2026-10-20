@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     VELAR_DIST_SINCE_CLR: 264
   response: 7E80562F4310108
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 544
+  response: 7E80562F4310220
