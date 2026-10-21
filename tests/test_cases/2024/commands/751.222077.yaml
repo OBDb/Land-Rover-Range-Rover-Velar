@@ -1,6 +1,15 @@
 command_id: '751.222077'
 test_cases:
 - expected_values:
+    VELAR_TP_FR: 0
+  response: '759056220770000'
+- expected_values:
+    VELAR_TP_FR: 2.14188
+  response: 75905622077009C
+- expected_values:
+    VELAR_TP_FR: 2.16934
+  response: 75905622077009E
+- expected_values:
     VELAR_TP_FR: 2.22426
   response: 7590562207700A2
 - expected_values:
