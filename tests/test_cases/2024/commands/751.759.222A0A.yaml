@@ -1,8 +1,8 @@
 command_id: 751.759.222A0A
 test_cases:
 - expected_values:
-    VELAR_TT_FL: 17
-  response: 75904622A0A43
+    VELAR_TT_FL: -50
+  response: 75904622A0A00
 - expected_values:
     VELAR_TT_FL: 29
   response: 75904622A0A4F
