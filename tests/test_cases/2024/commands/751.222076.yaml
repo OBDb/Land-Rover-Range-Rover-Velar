@@ -4,5 +4,5 @@ test_cases:
     VELAR_TP_FL: 0
   response: '759056220760000'
 - expected_values:
-    VELAR_TP_FL: 2.36156
-  response: 7590562207600AC
+    VELAR_TP_FL: 2.58124
+  response: 7590562207600BC

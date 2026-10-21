@@ -4,5 +4,5 @@ test_cases:
     VELAR_FUEL_LEVEL: 32.54902
   response: 7E80462F42F53
 - expected_values:
-    VELAR_FUEL_LEVEL: 51.76471
-  response: 7E80462F42F84
+    VELAR_FUEL_LEVEL: 74.90196
+  response: 7E80462F42FBF
