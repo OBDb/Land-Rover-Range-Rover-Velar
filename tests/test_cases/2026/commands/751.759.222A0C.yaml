@@ -7,6 +7,9 @@ test_cases:
     VELAR_TT_RL: 13
   response: 75904622A0C3F
 - expected_values:
+    VELAR_TT_RL: 14
+  response: 75904622A0C40
+- expected_values:
     VELAR_TT_RL: 18
   response: 75904622A0C44
 - expected_values:
