@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220434
+test_cases:
+- expected_values:
+    VELAR_DIST_SINCE_DPF_REGEN: 142490
+  response: 7E80762043400022C9A
+- expected_values:
+    VELAR_DIST_SINCE_DPF_REGEN: 145653
+  response: 7E807620434000238F5
+- expected_values:
+    VELAR_DIST_SINCE_DPF_REGEN: 146472
+  response: 7E80762043400023C28
+- expected_values:
+    VELAR_DIST_SINCE_DPF_REGEN: 147009
+  response: 7E80762043400023E41

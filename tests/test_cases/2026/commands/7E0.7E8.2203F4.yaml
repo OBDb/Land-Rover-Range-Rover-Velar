@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203F4
+test_cases:
+- expected_values:
+    VELAR_EXH_GAS_T_SENS_1: 170
+  response: 7E8046203F422
+- expected_values:
+    VELAR_EXH_GAS_T_SENS_1: 535
+  response: 7E8046203F46B

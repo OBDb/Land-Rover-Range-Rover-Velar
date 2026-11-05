@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    VELAR_LOAD_ABS: 0
+  response: 7E80562F4430000
+- expected_values:
+    VELAR_LOAD_ABS: 98.82353
+  response: 7E80562F44300FC
+- expected_values:
+    VELAR_LOAD_ABS: 101.96078
+  response: 7E80562F4430104

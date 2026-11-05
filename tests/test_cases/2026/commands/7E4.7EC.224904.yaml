@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224904
+test_cases:
+- expected_values:
+    VELAR_HVB_CELL_V_MIN: 3183
+  response: 7EC056249040C6F
+- expected_values:
+    VELAR_HVB_CELL_V_MIN: 3323
+  response: 7EC056249040CFB
+- expected_values:
+    VELAR_HVB_CELL_V_MIN: 3360
+  response: 7EC056249040D20

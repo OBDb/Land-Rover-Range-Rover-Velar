@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2205D6
+test_cases:
+- expected_values:
+    VELAR_AUXILIARY_CLT_PMP: 0
+  response: 7E8046205D600
+- expected_values:
+    VELAR_AUXILIARY_CLT_PMP: 99.60784
+  response: 7E8046205D6FE

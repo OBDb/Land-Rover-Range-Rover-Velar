@@ -1,0 +1,26 @@
+command_id: 7E4.7EC.224905
+test_cases:
+- expected_values:
+    VELAR_BATTERY_T_MAX: -0.5
+  response: 7EC046249054F
+- expected_values:
+    VELAR_BATTERY_T_MAX: 0
+  response: 7EC0462490550
+- expected_values:
+    VELAR_BATTERY_T_MAX: 1
+  response: 7EC0462490552
+- expected_values:
+    VELAR_BATTERY_T_MAX: 2
+  response: 7EC0462490554
+- expected_values:
+    VELAR_BATTERY_T_MAX: 4.5
+  response: 7EC0462490559
+- expected_values:
+    VELAR_BATTERY_T_MAX: 5.5
+  response: 7EC046249055B
+- expected_values:
+    VELAR_BATTERY_T_MAX: 6
+  response: 7EC046249055C
+- expected_values:
+    VELAR_BATTERY_T_MAX: 6.5
+  response: 7EC046249055D

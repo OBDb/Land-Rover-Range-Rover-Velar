@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F441
+test_cases:
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 969699
+  response: 7E80762F441000ECBE3
+- expected_values:
+    VELAR_MONITOR_THIS_CYCLE: 969707
+  response: 7E80762F441000ECBEB

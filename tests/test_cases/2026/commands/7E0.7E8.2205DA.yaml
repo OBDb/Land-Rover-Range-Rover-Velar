@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2205DA
+test_cases:
+- expected_values:
+    VELAR_CLT_PMP_VARIABLE: 0
+  response: 7E8046205DA00

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220598
+test_cases:
+- expected_values:
+    VELAR_DPF_MAX_SOOT_LOAD: 79
+  response: 7E805620598004F
+- expected_values:
+    VELAR_DPF_MAX_SOOT_LOAD: 80
+  response: '7E8056205980050'
+- expected_values:
+    VELAR_DPF_MAX_SOOT_LOAD: 81
+  response: '7E8056205980051'
+- expected_values:
+    VELAR_DPF_MAX_SOOT_LOAD: 82
+  response: '7E8056205980052'

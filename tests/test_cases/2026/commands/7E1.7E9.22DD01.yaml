@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22DD01
+test_cases:
+- expected_values:
+    VELAR_DD01_RAW: 1236
+  response: 7E90662DD010004D4
+- expected_values:
+    VELAR_DD01_RAW: 1240
+  response: 7E90662DD010004D8

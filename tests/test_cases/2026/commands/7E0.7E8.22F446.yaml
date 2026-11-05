@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F446
+test_cases:
+- expected_values:
+    VELAR_AMBIENT_TEMP: 13
+  response: 7E80462F44635
+- expected_values:
+    VELAR_AMBIENT_TEMP: 14
+  response: 7E80462F44636

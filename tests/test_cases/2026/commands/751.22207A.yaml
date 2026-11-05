@@ -1,0 +1,5 @@
+command_id: 751.22207A
+test_cases:
+- expected_values:
+    VELAR_SPARE_TIRE_P: 0
+  response: 7590562207A0000

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203DD
+test_cases:
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR: 0
+  response: 7E8056203DD0000
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR: 1.54726
+  response: 7E8056203DD01FB
+- expected_values:
+    VELAR_BOOST_P_ACTUATOR: 199.48119
+  response: 7E8056203DDFF55
