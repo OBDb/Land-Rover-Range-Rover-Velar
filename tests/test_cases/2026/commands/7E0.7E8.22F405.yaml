@@ -1,23 +1,8 @@
 command_id: 7E0.7E8.22F405
 test_cases:
 - expected_values:
-    VELAR_COOLANT_TEMP: 83
-  response: 7E80462F4057B
-- expected_values:
-    VELAR_COOLANT_TEMP: 84
-  response: 7E80462F4057C
-- expected_values:
-    VELAR_COOLANT_TEMP: 87
-  response: 7E80462F4057F
-- expected_values:
-    VELAR_COOLANT_TEMP: 88
-  response: 7E80462F40580
-- expected_values:
-    VELAR_COOLANT_TEMP: 89
-  response: 7E80462F40581
-- expected_values:
-    VELAR_COOLANT_TEMP: 90
-  response: 7E80462F40582
+    VELAR_COOLANT_TEMP: 41
+  response: 7E80462F40551
 - expected_values:
     VELAR_COOLANT_TEMP: 91
   response: 7E80462F40583

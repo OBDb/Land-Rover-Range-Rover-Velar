@@ -5,4 +5,7 @@ test_cases:
   response: 7E80762057B00000000
 - expected_values:
     VELAR_TOO_HIGH_OIL_T: 0
+  response: 7E80762057B00080000
+- expected_values:
+    VELAR_TOO_HIGH_OIL_T: 0
   response: 7E80762057B01000000

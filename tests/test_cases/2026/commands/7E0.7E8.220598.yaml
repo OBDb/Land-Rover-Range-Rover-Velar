@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     VELAR_DPF_MAX_SOOT_LOAD: 82
   response: '7E8056205980052'
+- expected_values:
+    VELAR_DPF_MAX_SOOT_LOAD: 83
+  response: '7E8056205980053'

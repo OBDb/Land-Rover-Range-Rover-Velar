@@ -1,6 +1,9 @@
 command_id: 7E1.221E12
 test_cases:
 - expected_values:
+    VELAR_GEAR_CMD: 1
+  response: 7E904621E1201
+- expected_values:
     VELAR_GEAR_CMD: 2
   response: 7E904621E1202
 - expected_values:

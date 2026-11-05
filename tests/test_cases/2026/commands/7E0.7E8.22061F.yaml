@@ -4,11 +4,11 @@ test_cases:
     VELAR_DPF_SOOT: 19.0295
   response: 7E80562061F30B7
 - expected_values:
-    VELAR_DPF_SOOT: 19.16988
-  response: 7E80562061F3113
-- expected_values:
     VELAR_DPF_SOOT: 19.52847
   response: 7E80562061F31FE
 - expected_values:
-    VELAR_DPF_SOOT: 19.77872
-  response: 7E80562061F32A2
+    VELAR_DPF_SOOT: 19.53915
+  response: 7E80562061F3205
+- expected_values:
+    VELAR_DPF_SOOT: 19.96945
+  response: 7E80562061F331F

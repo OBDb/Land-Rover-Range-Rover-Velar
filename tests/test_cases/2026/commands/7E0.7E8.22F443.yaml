@@ -4,8 +4,8 @@ test_cases:
     VELAR_LOAD_ABS: 0
   response: 7E80562F4430000
 - expected_values:
-    VELAR_LOAD_ABS: 98.82353
-  response: 7E80562F44300FC
+    VELAR_LOAD_ABS: 99.60784
+  response: 7E80562F44300FE
 - expected_values:
-    VELAR_LOAD_ABS: 101.96078
-  response: 7E80562F4430104
+    VELAR_LOAD_ABS: 101.17647
+  response: 7E80562F4430102

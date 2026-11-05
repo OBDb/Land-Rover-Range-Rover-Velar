@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VELAR_WARMUPS: 34
   response: 7E80462F43022
+- expected_values:
+    VELAR_WARMUPS: 35
+  response: 7E80462F43023
