@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220430
+test_cases:
+- expected_values:
+    VELAR_EXH_GAS_VOLUMETRIC: 0
+  response: 7E80562043000F4
+- expected_values:
+    VELAR_EXH_GAS_VOLUMETRIC: 0
+  response: 7E80562043000FD
+- expected_values:
+    VELAR_EXH_GAS_VOLUMETRIC: 0.39216
+  response: '7E8056204300117'
+- expected_values:
+    VELAR_EXH_GAS_VOLUMETRIC: 3.52941
+  response: 7E80562043009C0

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 1198
+  response: 7E80562F43104AE
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 1202
+  response: 7E80562F43104B2
+- expected_values:
+    VELAR_DIST_SINCE_CLR: 1204
+  response: 7E80562F43104B4

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F423
+test_cases:
+- expected_values:
+    VELAR_FUEL_RAIL_GAUGE_P: 540
+  response: 7E80562F4230036
+- expected_values:
+    VELAR_FUEL_RAIL_GAUGE_P: 30560
+  response: 7E80562F4230BF0
+- expected_values:
+    VELAR_FUEL_RAIL_GAUGE_P: 35840
+  response: 7E80562F4230E00
+- expected_values:
+    VELAR_FUEL_RAIL_GAUGE_P: 102480
+  response: 7E80562F4232808

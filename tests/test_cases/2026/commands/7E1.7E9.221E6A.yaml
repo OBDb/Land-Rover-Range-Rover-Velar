@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221E6A
+test_cases:
+- expected_values:
+    VELAR_1E6A_RAW: 0
+  response: 7E904621E6A00

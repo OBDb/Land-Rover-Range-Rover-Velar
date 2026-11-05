@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221E71
+test_cases:
+- expected_values:
+    VELAR_ENG_CLT_OVER_T_CNT: 0
+  response: 7E904621E7100

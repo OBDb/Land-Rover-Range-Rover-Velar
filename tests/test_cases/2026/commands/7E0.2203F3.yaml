@@ -1,0 +1,26 @@
+command_id: 7E0.2203F3
+test_cases:
+- expected_values:
+    VELAR_SUMP_OIL_T: 81
+  response: 7E8046203F379
+- expected_values:
+    VELAR_SUMP_OIL_T: 82
+  response: 7E8046203F37A
+- expected_values:
+    VELAR_SUMP_OIL_T: 83
+  response: 7E8046203F37B
+- expected_values:
+    VELAR_SUMP_OIL_T: 86
+  response: 7E8046203F37E
+- expected_values:
+    VELAR_SUMP_OIL_T: 87
+  response: 7E8046203F37F
+- expected_values:
+    VELAR_SUMP_OIL_T: 88
+  response: 7E8046203F380
+- expected_values:
+    VELAR_SUMP_OIL_T: 89
+  response: 7E8046203F381
+- expected_values:
+    VELAR_SUMP_OIL_T: 90
+  response: 7E8046203F382

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    VELAR_ODO_ECM: 1236
+  response: 7E80662DD010004D4
+- expected_values:
+    VELAR_ODO_ECM: 1240
+  response: 7E80662DD010004D8

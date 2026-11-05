@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220417
+test_cases:
+- expected_values:
+    VELAR_DPF_SPACE_LEFT: 0
+  response: '7E80462041700'

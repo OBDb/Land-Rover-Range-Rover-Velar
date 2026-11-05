@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    VELAR_RUN_TIME: 210
+  response: 7E80562F41F00D2
+- expected_values:
+    VELAR_RUN_TIME: 772
+  response: 7E80562F41F0304
+- expected_values:
+    VELAR_RUN_TIME: 1011
+  response: 7E80562F41F03F3
+- expected_values:
+    VELAR_RUN_TIME: 1372
+  response: 7E80562F41F055C

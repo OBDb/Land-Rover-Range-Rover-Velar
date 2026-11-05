@@ -1,0 +1,32 @@
+command_id: 7E1.221F12
+test_cases:
+- expected_values:
+    VELAR_TQ_CONV_T: 52
+  response: 7E904621F122E
+- expected_values:
+    VELAR_TQ_CONV_T: 54
+  response: 7E904621F122F
+- expected_values:
+    VELAR_TQ_CONV_T: 56
+  response: 7E904621F1230
+- expected_values:
+    VELAR_TQ_CONV_T: 58
+  response: 7E904621F1231
+- expected_values:
+    VELAR_TQ_CONV_T: 60
+  response: 7E904621F1232
+- expected_values:
+    VELAR_TQ_CONV_T: 62
+  response: 7E904621F1233
+- expected_values:
+    VELAR_TQ_CONV_T: 64
+  response: 7E904621F1234
+- expected_values:
+    VELAR_TQ_CONV_T: 66
+  response: 7E904621F1235
+- expected_values:
+    VELAR_TQ_CONV_T: 68
+  response: 7E904621F1236
+- expected_values:
+    VELAR_TQ_CONV_T: 70
+  response: 7E904621F1237

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2205C8
+test_cases:
+- expected_values:
+    VELAR_EGR_LOW_P: 0
+  response: 7E8056205C80002
+- expected_values:
+    VELAR_EGR_LOW_P: 0.01
+  response: 7E8056205C8FFF8
+- expected_values:
+    VELAR_EGR_LOW_P: 0.01
+  response: 7E8056205C8FFFB

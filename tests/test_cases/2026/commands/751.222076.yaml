@@ -1,0 +1,8 @@
+command_id: '751.222076'
+test_cases:
+- expected_values:
+    VELAR_TP_FL: 2.16934
+  response: 75905622076009E
+- expected_values:
+    VELAR_TP_FL: 2.1968
+  response: 7590562207600A0

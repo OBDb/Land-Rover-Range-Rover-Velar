@@ -1,0 +1,11 @@
+command_id: 753.22DD02
+test_cases:
+- expected_values:
+    VELAR_12V_BATTERY: 12.5
+  response: 75B0462DD0232
+- expected_values:
+    VELAR_12V_BATTERY: 14.5
+  response: 75B0462DD023A
+- expected_values:
+    VELAR_12V_BATTERY: 14.75
+  response: 75B0462DD023B
