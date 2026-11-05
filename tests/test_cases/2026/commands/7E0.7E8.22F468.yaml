@@ -1,10 +1,16 @@
 command_id: 7E0.7E8.22F468
 test_cases:
 - expected_values:
-    VELAR_IAT_1: 25
-    VELAR_IAT_2: 47
+    VELAR_IAT_1: 16
+    VELAR_IAT_2: 42
   response: |-
-    7E8100A62F468074157
+    7E8100A62F468073852
+    7E8214B000000000000
+- expected_values:
+    VELAR_IAT_1: 21
+    VELAR_IAT_2: 67
+  response: |-
+    7E8100A62F468073D6B
     7E8214B000000000000
 - expected_values:
     VELAR_IAT_1: 26
@@ -13,11 +19,11 @@ test_cases:
     7E8100A62F468074251
     7E8214B000000000000
 - expected_values:
-    VELAR_IAT_1: 32
-    VELAR_IAT_2: 46
+    VELAR_IAT_1: 33
+    VELAR_IAT_2: 42
   response: |-
-    7E8100A62F468074856
-    7E82146000000000000
+    7E8100A62F468074952
+    7E82144000000000000
 - expected_values:
     VELAR_IAT_1: 34
     VELAR_IAT_2: 56

@@ -4,8 +4,11 @@ test_cases:
     VELAR_HVB_V: 13.36
   response: 7EC0562490F0538
 - expected_values:
-    VELAR_HVB_V: 46.02
-  response: 7EC0562490F11FA
+    VELAR_HVB_V: 46.05
+  response: 7EC0562490F11FD
 - expected_values:
     VELAR_HVB_V: 46.1
   response: 7EC0562490F1202
+- expected_values:
+    VELAR_HVB_V: 48.7
+  response: 7EC0562490F1306

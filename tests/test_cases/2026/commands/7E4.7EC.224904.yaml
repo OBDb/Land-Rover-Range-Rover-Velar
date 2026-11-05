@@ -4,8 +4,8 @@ test_cases:
     VELAR_HVB_CELL_V_MIN: 3183
   response: 7EC056249040C6F
 - expected_values:
-    VELAR_HVB_CELL_V_MIN: 3323
-  response: 7EC056249040CFB
+    VELAR_HVB_CELL_V_MIN: 3326
+  response: 7EC056249040CFE
 - expected_values:
-    VELAR_HVB_CELL_V_MIN: 3360
-  response: 7EC056249040D20
+    VELAR_HVB_CELL_V_MIN: 3344
+  response: 7EC056249040D10

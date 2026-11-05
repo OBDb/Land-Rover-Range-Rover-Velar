@@ -7,5 +7,5 @@ test_cases:
     VELAR_HVB_CELL_V_MAX: 3327
   response: 7EC056249030CFF
 - expected_values:
-    VELAR_HVB_CELL_V_MAX: 3361
-  response: 7EC056249030D21
+    VELAR_HVB_CELL_V_MAX: 3330
+  response: 7EC056249030D02

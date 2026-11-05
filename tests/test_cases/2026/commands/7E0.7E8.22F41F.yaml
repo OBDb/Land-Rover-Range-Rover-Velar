@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    VELAR_RUN_TIME: 210
-  response: 7E80562F41F00D2
+    VELAR_RUN_TIME: 5
+  response: 7E80562F41F0005
 - expected_values:
     VELAR_RUN_TIME: 772
   response: 7E80562F41F0304

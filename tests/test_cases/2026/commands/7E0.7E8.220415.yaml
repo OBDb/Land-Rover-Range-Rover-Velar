@@ -4,8 +4,8 @@ test_cases:
     VELAR_EOP: 99
   response: '7E8056204150063'
 - expected_values:
-    VELAR_EOP: 248
-  response: 7E80562041500F8
+    VELAR_EOP: 254
+  response: 7E80562041500FE
 - expected_values:
     VELAR_EOP: 256
   response: '7E8056204150100'

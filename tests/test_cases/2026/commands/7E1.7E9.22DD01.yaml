@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     VELAR_DD01_RAW: 1240
   response: 7E90662DD010004D8
+- expected_values:
+    VELAR_DD01_RAW: 1243
+  response: 7E90662DD010004DB
+- expected_values:
+    VELAR_DD01_RAW: 1247
+  response: 7E90662DD010004DF

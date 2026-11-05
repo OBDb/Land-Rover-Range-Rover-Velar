@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
+    VELAR_ECM_BAT_V: 12.08
+  response: 7E80562F4422F30
+- expected_values:
     VELAR_ECM_BAT_V: 12.3
   response: 7E80562F442300C
+- expected_values:
+    VELAR_ECM_BAT_V: 12.44
+  response: 7E80562F4423098
 - expected_values:
     VELAR_ECM_BAT_V: 14.36
   response: 7E80562F4423818

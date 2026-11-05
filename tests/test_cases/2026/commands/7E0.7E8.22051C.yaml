@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22051C
 test_cases:
 - expected_values:
-    VELAR_AIR_CHG_T: 30
-  response: 7E80462051C46
+    VELAR_AIR_CHG_T: 28
+  response: 7E80462051C44
 - expected_values:
     VELAR_AIR_CHG_T: 45
   response: 7E80462051C55
