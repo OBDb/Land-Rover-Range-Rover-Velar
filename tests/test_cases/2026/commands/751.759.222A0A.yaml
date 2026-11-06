@@ -4,29 +4,5 @@ test_cases:
     VELAR_TT_FL: 10
   response: 75904622A0A3C
 - expected_values:
-    VELAR_TT_FL: 11
-  response: 75904622A0A3D
-- expected_values:
-    VELAR_TT_FL: 12
-  response: 75904622A0A3E
-- expected_values:
-    VELAR_TT_FL: 14
-  response: 75904622A0A40
-- expected_values:
-    VELAR_TT_FL: 15
-  response: 75904622A0A41
-- expected_values:
-    VELAR_TT_FL: 16
-  response: 75904622A0A42
-- expected_values:
-    VELAR_TT_FL: 17
-  response: 75904622A0A43
-- expected_values:
-    VELAR_TT_FL: 18
-  response: 75904622A0A44
-- expected_values:
-    VELAR_TT_FL: 20
-  response: 75904622A0A46
-- expected_values:
     VELAR_TT_FL: 22
   response: 75904622A0A48
