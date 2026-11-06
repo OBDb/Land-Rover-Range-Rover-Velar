@@ -1,8 +1,8 @@
 command_id: 7E1.221F12
 test_cases:
 - expected_values:
-    VELAR_TQ_CONV_T: 44
-  response: 7E904621F122A
+    VELAR_TQ_CONV_T: 26
+  response: 7E904621F1221
 - expected_values:
     VELAR_TQ_CONV_T: 70
   response: 7E904621F1237
