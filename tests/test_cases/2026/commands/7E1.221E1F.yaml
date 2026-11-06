@@ -25,5 +25,8 @@ test_cases:
     VELAR_GEAR_ENGAGED: 7
   response: 7E904621E1F07
 - expected_values:
+    VELAR_GEAR_ENGAGED: 8
+  response: 7E904621E1F08
+- expected_values:
     VELAR_GEAR_ENGAGED: 70
   response: 7E904621E1F46

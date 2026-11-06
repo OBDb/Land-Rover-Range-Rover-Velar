@@ -4,5 +4,5 @@ test_cases:
     VELAR_COOLANT_TEMP: 19
   response: 7E80462F4053B
 - expected_values:
-    VELAR_COOLANT_TEMP: 91
-  response: 7E80462F40583
+    VELAR_COOLANT_TEMP: 94
+  response: 7E80462F40586
