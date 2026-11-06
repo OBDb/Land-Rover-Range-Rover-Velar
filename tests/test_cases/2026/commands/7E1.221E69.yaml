@@ -4,5 +4,5 @@ test_cases:
     VELAR_ATF_T: 20
   response: 7E904621E693C
 - expected_values:
-    VELAR_ATF_T: 71
-  response: 7E904621E696F
+    VELAR_ATF_T: 76
+  response: 7E904621E6974
