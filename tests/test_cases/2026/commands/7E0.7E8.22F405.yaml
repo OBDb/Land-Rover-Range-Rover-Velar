@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F405
 test_cases:
 - expected_values:
-    VELAR_COOLANT_TEMP: 19
-  response: 7E80462F4053B
+    VELAR_COOLANT_TEMP: 18
+  response: 7E80462F4053A
 - expected_values:
     VELAR_COOLANT_TEMP: 95
   response: 7E80462F40587
