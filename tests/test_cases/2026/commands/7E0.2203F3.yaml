@@ -1,8 +1,8 @@
 command_id: 7E0.2203F3
 test_cases:
 - expected_values:
-    VELAR_SUMP_OIL_T: 16
-  response: 7E8046203F338
+    VELAR_SUMP_OIL_T: 14
+  response: 7E8046203F336
 - expected_values:
     VELAR_SUMP_OIL_T: 91
   response: 7E8046203F383
