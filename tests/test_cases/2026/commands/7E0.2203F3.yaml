@@ -4,5 +4,5 @@ test_cases:
     VELAR_SUMP_OIL_T: 14
   response: 7E8046203F336
 - expected_values:
-    VELAR_SUMP_OIL_T: 91
-  response: 7E8046203F383
+    VELAR_SUMP_OIL_T: 96
+  response: 7E8046203F388
