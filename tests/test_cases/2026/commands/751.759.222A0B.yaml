@@ -4,5 +4,5 @@ test_cases:
     VELAR_TT_FR: 8
   response: 75904622A0B3A
 - expected_values:
-    VELAR_TT_FR: 20
-  response: 75904622A0B46
+    VELAR_TT_FR: 22
+  response: 75904622A0B48
