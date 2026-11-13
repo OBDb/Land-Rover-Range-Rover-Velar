@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    VELAR_FUEL_LEVEL: 32.54902
-  response: 7E80462F42F53
+    VELAR_FUEL_LEVEL: 25.09804
+  response: 7E80462F42F40
 - expected_values:
     VELAR_FUEL_LEVEL: 74.90196
   response: 7E80462F42FBF
