@@ -4,5 +4,5 @@ test_cases:
     VELAR_TT_RR: -50
   response: 75904622A0D00
 - expected_values:
-    VELAR_TT_RR: 28
-  response: 75904622A0D4E
+    VELAR_TT_RR: 30
+  response: 75904622A0D50
